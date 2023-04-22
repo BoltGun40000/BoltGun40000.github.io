@@ -287,8 +287,10 @@ function showSlides(n) {
 
 <script>
     function sendEmail() {
-        Email.send({
- SecureToken:"ad9c318e-8280-418e-83a3-d2f99172d712",
+    Email.send({
+    password: "CCF1F3CB6BA3253FC89F48C9957CF219909C", 
+    Username: "info@mywalkwithgod.ca", 
+    Host:"smtp.elasticemail.com",
     To : 'raylerand@gmail.com',
     From : document.getElementById("email").value, 
     Subject : "New contact form enquiry",
