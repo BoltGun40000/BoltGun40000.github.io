@@ -288,12 +288,12 @@ function showSlides(n) {
 <script>
     function sendEmail() {
     Email.send({
-    password: "CCF1F3CB6BA3253FC89F48C9957CF219909C", 
-    Username: "info@mywalkwithgod.ca", 
     Host:"smtp.elasticemail.com",
+    Username: "info@mywalkwithgod.ca", 
+    Password: "CCF1F3CB6BA3253FC89F48C9957CF219909C", 
     To : 'raylerand@gmail.com',
     From : document.getElementById("email").value, 
-    Subject : "New contact form enquiry",
+    Subject : "New contact form Enquiry",
     Body : "Name: " + document.getElementById("name").value
     +"<br> Email:" + document.getElementById("email").value
     +"<br> Phone no:" + document.getElementById("phone").value
